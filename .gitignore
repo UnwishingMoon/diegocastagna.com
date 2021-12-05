@@ -8,7 +8,6 @@ files/*
 
 # Excluding this files
 !.gitkeep
-!trunk/toProcess/
 
 # Dependencies and libraries
 vendor/
