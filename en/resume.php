@@ -233,6 +233,9 @@ $html = <<<HTML
                         <div class="skill">
                             <span>PostgreSQL</span>
                         </div>
+                        <div class="skill">
+                            <span>NodeJS</span>
+                        </div>
                     </div>
                 </div>
             </div>
