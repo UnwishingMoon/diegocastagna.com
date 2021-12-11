@@ -164,6 +164,12 @@ $html = <<<HTML
                         <div class="skill">
                             <a href="/files/certifications/cert-advanced-git-2021-11-12.pdf" target="_blank" rel="noreferrer">Git Advanced</a>
                         </div>
+                         <div class="skill">
+                            <a href="/files/certifications/cert-php-introduction-2021-12-10.pdf" target="_blank" rel="noreferrer">PHP Introduction</a>
+                        </div>
+                        <div class="skill">
+                            <a href="/files/certifications/cert-php-array-control-structures-2021-12-10.pdf" target="_blank" rel="noreferrer">PHP Control structures</a>
+                        </div>
                     </div>
                 </div>
 
