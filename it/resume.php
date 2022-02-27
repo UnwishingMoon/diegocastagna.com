@@ -159,16 +159,10 @@ $html = <<<HTML
                             <a href="/files/certifications/cert-docker-2021-11-24.pdf" target="_blank" rel="noreferrer">Docker</a>
                         </div>
                         <div class="skill">
-                            <a href="/files/certifications/cert-base-git-2021-11-04.pdf" target="_blank" rel="noreferrer">Git Base</a>
+                            <a href="/files/certifications/cert-git-2021-11-12.pdf" target="_blank" rel="noreferrer">Git</a>
                         </div>
                         <div class="skill">
-                            <a href="/files/certifications/cert-advanced-git-2021-11-12.pdf" target="_blank" rel="noreferrer">Git Avanzato</a>
-                        </div>
-                        <div class="skill">
-                            <a href="/files/certifications/cert-php-introduction-2021-12-10.pdf" target="_blank" rel="noreferrer">PHP Introduzione</a>
-                        </div>
-                        <div class="skill">
-                            <a href="/files/certifications/cert-php-array-control-structures-2021-12-10.pdf" target="_blank" rel="noreferrer">PHP Strutture di controllo</a>
+                            <a href="/files/certifications/certs-php-2022-02-23.pdf" target="_blank" rel="noreferrer">PHP</a>
                         </div>
                     </div>
                 </div>
