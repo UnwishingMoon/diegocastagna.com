@@ -156,6 +156,9 @@ $html = <<<HTML
                             <a href="/files/certifications/aws-awsomeday-2021-10-13.png" target="_blank" rel="noreferrer">AWSome Day</a>
                         </div>
                         <div class="skill">
+                            <a href="/files/certifications/aws-innovate-2022-02-24.png" target="_blank" rel="noreferrer">AWS Innovate</a>
+                        </div>
+                        <div class="skill">
                             <a href="/files/certifications/cert-docker-2021-11-24.pdf" target="_blank" rel="noreferrer">Docker</a>
                         </div>
                         <div class="skill">
@@ -235,6 +238,12 @@ $html = <<<HTML
                         </div>
                         <div class="skill">
                             <span>NodeJS</span>
+                        </div>
+                        <div class="skill">
+                            <span>Ansible</span>
+                        </div>
+                        <div class="skill">
+                            <span>Terraform</span>
                         </div>
                     </div>
                 </div>

@@ -236,6 +236,12 @@ $html = <<<HTML
                         <div class="skill">
                             <span>NodeJS</span>
                         </div>
+                        <div class="skill">
+                            <span>Ansible</span>
+                        </div>
+                        <div class="skill">
+                            <span>Terraform</span>
+                        </div>
                     </div>
                 </div>
             </div>
