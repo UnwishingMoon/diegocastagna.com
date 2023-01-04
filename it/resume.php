@@ -153,10 +153,7 @@ $html = <<<HTML
                     <h2 class="title title-h2">Attestati</h2>
                     <div class="box-gray">
                         <div class="skill">
-                            <a href="/files/certifications/aws-awsomeday-2021-10-13.png" target="_blank" rel="noreferrer">AWSome Day</a>
-                        </div>
-                        <div class="skill">
-                            <a href="/files/certifications/aws-innovate-2022-02-24.png" target="_blank" rel="noreferrer">AWS Innovate</a>
+                            <a href="/files/certifications/aws-acloudguru.pdf" target="_blank" rel="noreferrer">AWS - ACloudGuru</a>
                         </div>
                         <div class="skill">
                             <a href="/files/certifications/cert-docker-2021-11-24.pdf" target="_blank" rel="noreferrer">Docker</a>
