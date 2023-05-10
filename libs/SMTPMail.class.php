@@ -131,18 +131,19 @@ class SMTPMail {
      * @return bool True when the email is sent successfully, false otherwise
      * @throws Exception
      */
-    public function sendSendinblue($from, $to, $subject, $message, $attach = array(), $SMTP = array(), $debug = "DEBUG_OFF", &$output = array()) {
+    public function sendPostmark($from, $to, $subject, $message, $attach = array(), $SMTP = array(), $debug = "DEBUG_OFF", &$output = array()) {
         $mail = new PHPMailer();
         $result = false;
 
         $mail->isSMTP();
-        $mail->Host = 'smtp-relay.sendinblue.com';
+        $mail->Host = 'smtp.postmarkapp.com';
         $mail->Port = 587;
         $mail->SMTPAuth = true;
         $mail->Username = '';
         $mail->Password = '';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->SMTPDebug = constant("SMTP::$debug");
+        $mail->addCustomHeader("X-PM-Message-Stream", "outbound");
 
         if ($debug != SMTP::DEBUG_OFF) {
             $output[] = "Finished setting up default SMTP";

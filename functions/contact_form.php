@@ -37,7 +37,7 @@ if ($response["success"] == true) {
 
         $message = "From: $name ($email)\n\n";
         $message .= !empty($_REQUEST['message']) ? $_REQUEST['message'] : "";
-        $from = "website@diegocastagna.com";
+        $from = "noreply@diegocastagna.com";
         $to = 'diego@diegocastagna.com';
         $subject = 'Contact From My Website';
 
@@ -52,7 +52,7 @@ if ($response["success"] == true) {
         $stmt->bind_param('sssss', $name, $email, $message, $userIp, $userToken);
         $stmt->execute();
 
-        if($mail->sendSendinblue($from, $to, $subject, $message)){
+        if($mail->sendPostmark($from, $to, $subject, $message)){
             echo "success";
             exit;
         }
