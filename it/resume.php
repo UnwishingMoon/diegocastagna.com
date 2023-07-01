@@ -156,6 +156,9 @@ $html = <<<HTML
                             <a href="/files/certifications/aws-acloudguru.pdf" target="_blank" rel="noreferrer">AWS - ACloudGuru</a>
                         </div>
                         <div class="skill">
+                            <a href="/files/certifications/devops-acloudguru.pdf" target="_blank" rel="noreferrer">DevOps - ACloudGuru</a>
+                        </div>
+                        <div class="skill">
                             <a href="/files/certifications/cert-docker-2021-11-24.pdf" target="_blank" rel="noreferrer">Docker</a>
                         </div>
                         <div class="skill">
